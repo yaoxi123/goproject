@@ -1,0 +1,7 @@
+plugins {
+    id 'com.github.blindpirate.gogradle' version '0.11.4'
+}
+
+golang {
+    packagePath = 'github.com/your/package' // 欲构建项目的go import path，注意不是本地目录的路径！
+}
